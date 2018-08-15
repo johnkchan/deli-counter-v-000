@@ -5,6 +5,6 @@ def line(deli)
   end 
 end
 
-def take_a_number(deli, people)
-  
+def take_a_number(deli, person)
+  puts "Welcome, #{person}. You are number #{deli.size + 1} in line."
 end
