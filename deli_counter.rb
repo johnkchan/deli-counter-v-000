@@ -5,7 +5,7 @@ def line(deli)
   else
     print "The line is currently: "
     deli.each_with_index { |name, index|
-      print "#{index + 1}. #name "
+      print "#{index + 1}. #{name} "
     }
   end
 end
