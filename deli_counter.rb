@@ -7,6 +7,7 @@ end
 
 def take_a_number(deli, person)
   puts "Welcome, #{person}. You are number #{deli.size + 1} in line."
+  deli << person
 end
 
 def now_serving(deli)
